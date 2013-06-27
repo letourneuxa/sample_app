@@ -26,11 +26,12 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample_app_test
+  database: onesoft_test
   pool: 5
   username: root
-  password:
-  host: localhost
+  password: toto
+  host: 127.0.0.1
+  port: 3306
 
 production:
   adapter: mysql2
